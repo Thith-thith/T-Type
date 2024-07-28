@@ -1,10 +1,9 @@
-# OpenType 🖮
+# T-Type 🖮
 
-OpenType is a minimalistic typing speed testing app built with React and TailwindCSS that highly inspired by [MonkeyType](https://www.monkeytype.com). The app allows users to test and improve their typing speed and accuracy. The app provides a user-friendly interface and intuitive feedback on typing performance.
-
+ T-Type is a sleek, minimalist typing speed tester crafted with React and Tailwind CSS, drawing inspiration from the popular [MonkeyType](https://www.monkeytype.com). Designed to help you master the keyboard, T-Type offers a clean interface and insightful feedback on your typing performance. Sharpen your skills, track your progress, and become a typing pro with T-Type.
 ## Live Demo
 
-Check out the live demo [here](https://estifanos12.github.io/OpenType/).
+Check out the live demo [here](https://t-type.vercel.app/).
 
 ## Current Features
 
@@ -25,7 +24,7 @@ Check out the live demo [here](https://estifanos12.github.io/OpenType/).
 
 ## Screenshots with different themes
 
-<img width="800" alt="Screen Shot 2022-08-28 at 9 15 36 AM" src="https://github.com/Estifanos12/OpenType/blob/main/screenshots/screenshot-0.png?raw=true">
+<img width="800" alt="Screen Shot 2022-08-28 at 9 15 36 AM" src="https://github.com/Thith-thith/T-Type/blob/main/screenshots/screenshot-0.png?raw=true">
 
 <br>
 
@@ -37,13 +36,13 @@ To run this app locally, follow these steps:
 Clone this repository
 
 ```bash
-git clone https://github.com/Estifanos12/OpenType.git
+git clone https://github.com/Thith-thith/T-Type.git
 ```
 
 Navigate to the project directory
 
 ```bash
-cd OpenType
+cd T-Type
 ```
 
 Install dependencies
