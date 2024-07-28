@@ -1,13 +1,13 @@
-import { faker } from '@faker-js/faker';
+import { faker } from "@faker-js/faker";
 
-import { AccuracyMetrics } from '../types';
+import { AccuracyMetrics } from "../types";
 
 export const isAllowedCode = (code: string): boolean => {
   return (
-    code.startsWith('Key') ||
-    code === 'Backspace' ||
-    code === 'Space' ||
-    code === 'Minus'
+    code.startsWith("Key") ||
+    code === "Backspace" ||
+    code === "Space" ||
+    code === "Minus"
   );
 };
 
@@ -15,12 +15,12 @@ export const isMobile = () => {
   const userAgent = navigator.userAgent;
 
   const mobileUserAgents = [
-    'Android',
-    'iPhone',
-    'iPad',
-    'iPod',
-    'BlackBerry',
-    'Windows Phone',
+    "Android",
+    "iPhone",
+    "iPad",
+    "iPod",
+    "BlackBerry",
+    "Windows Phone",
   ];
 
   for (let i = 0; i < mobileUserAgents.length; i++) {
@@ -73,76 +73,53 @@ export const calculateErrorPercentage = (accuracy: number) => {
 };
 
 export const theme = {
+  blackNight: {
+    name: "Black Night",
+    background: {
+      primary: "#000000",
+      secondary: "#14213D",
+    },
+    text: {
+      primary: "#FCA311",
+      secondary: "#E5E5E5",
+      title: "#FFFFFF",
+    },
+  },
   blueDolphin: {
-    name: 'Blue Dolphin',
+    name: "Blue Dolphin",
     background: {
-      primary: '#003950',
-      secondary: '#014961',
+      primary: "#003950",
+      secondary: "#014961",
     },
     text: {
-      primary: '#6DEAFF',
-      secondary: '#FFCEFB',
-      title: '#6DEAFF',
+      primary: "#6DEAFF",
+      secondary: "#FFCEFB",
+      title: "#6DEAFF",
     },
   },
-  aurora: {
-    name: 'Aurora',
+
+  coffee: {
+    name: "Coffee",
     background: {
-      primary: '#011926',
-      secondary: '#000C13',
+      primary: "#0A0908",
+      secondary: "#22333B",
     },
     text: {
-      primary: '#235A68',
-      secondary: '#00E980',
-      title: '#00E980',
+      primary: "#EAE0D5",
+      secondary: "#C6AC8F",
+      title: "#5E503F",
     },
   },
-  paper: {
-    name: 'Paper',
+  nightBlue: {
+    name: "Night Blue",
     background: {
-      primary: '#EEEEEE',
-      secondary: '#DDDDDD',
+      primary: "#134074",
+      secondary: "#13315C",
     },
     text: {
-      primary: '#B4B4B4',
-      secondary: '#444444',
-      title: '#444444',
-    },
-  },
-  cyberspace: {
-    name: 'Cyberspace',
-    background: {
-      primary: '#181C18',
-      secondary: '#131613',
-    },
-    text: {
-      primary: '#9578D3',
-      secondary: '#04AF6A',
-      title: '#9578D3',
-    },
-  },
-  cheesecake: {
-    name: 'Cheesecake',
-    background: {
-      primary: '#FDF0D5',
-      secondary: '#F3E2BF',
-    },
-    text: {
-      primary: '#E14C94',
-      secondary: '#3A3335',
-      title: '#E14C94',
-    },
-  },
-  bouquet: {
-    name: 'Bouquet',
-    background: {
-      primary: '#173F35',
-      secondary: '#1F4E43',
-    },
-    text: {
-      primary: '#408E7B',
-      secondary: '#DBE0D2',
-      title: '#DBE0D2',
+      primary: "#0B2545",
+      secondary: "#8DA9C4",
+      title: "#EEF4ED",
     },
   },
 };
